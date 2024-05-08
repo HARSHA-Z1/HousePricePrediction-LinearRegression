@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
-
-
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -47,8 +44,6 @@ predictions = algo.predict(X_test)
 score = algo.score(X_test, y_test)
 print(score)
 
-
-# In[ ]:
 
 
 
