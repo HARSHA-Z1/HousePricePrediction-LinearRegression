@@ -12,7 +12,7 @@ from sklearn.linear_model import LinearRegression
 from sklearn.preprocessing import OneHotEncoder
 
 # Import dataset
-df = pd.read_csv(r'C:\Users\91934\Downloads\archive\Participants_Data_HPP\Train.csv')
+df = pd.read_csv(r'C:\Users\91934\Downloads\archive\Participants_Data_HPP\Train.csv') #Location of dataset
 
 # Extracting city from address
 df['City'] = df['ADDRESS'].apply(lambda x: x.split(',')[-1].strip())  # Extracting the last part and removing whitespace
